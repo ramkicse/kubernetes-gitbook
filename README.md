@@ -1,14 +1,6 @@
-# TLS Passthrough
+# Istio Installation
 
-![](<.gitbook/assets/image (1).png>)
-
-
-
-add VS for match passthrough
+istioctl profile dump demo
 
 
-
-
-
-![](.gitbook/assets/image.png)
 
