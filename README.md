@@ -4,3 +4,25 @@ istioctl profile dump demo
 
 
 
+````yaml
+```yaml
+apiVersion: install.istio.io/v1alpha1
+kind: IstioOperator
+metadata:
+  name: ingress-gateway
+spec:
+  profile: empty
+  components:
+    ingressGateways:
+    - name: ingressgateway
+      namespace: istio-system
+      enabled: true
+      label:
+        istio: ingressgateway
+      k8s:
+        resources:
+          requests:
+            cpu: 100m
+            memory: 160Mi
+```
+````
