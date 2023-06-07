@@ -1,5 +1,13 @@
 # Istio Installation
 
+Install Istio Operator
+
+istioctl operator init
+
+
+
+
+
 istioctl profile dump demo
 
 
